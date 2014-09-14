@@ -1,0 +1,21 @@
+*** Assignment 4: Bezier Patches README ***
+By: Alan Yao & Rohan Chitnis
+Submission: Code&Readme by Alan Yao (cs184-bx). Readme by Rohan Chitnis (cs184-ar).
+Platform: Compiled&tested on Ubuntu 12.04 precise. Requires C++11 (compiles with -std=c++0x) and freeGlut and SOIL for screenshot functionality.
+Compile with make.
+Run with ./as4 [input file name] [options]
+
+Input file spec:
+[rect/objfile] jointtype tx ty tz sx sy sz theta rx ry rz tailx y z headx y z (in obj space) -- Specifies a joint. Subsequent joint is a child of this joint.
+
+path \n
+p1x p1y p1z
+p2x p2y p2z
+... --Specifies the path to follow, for the leaf.
+
+Options:
+-o output_file_dir/ -- At each timestep, a screenshot will be written to the output file directory.
+-m number_instances -- Generates number_instances arms that follow the path.
+
+****NOTE: Since the hive machines do not have SOIL installed, all SOIL functionality is commented out in the submission. 
+

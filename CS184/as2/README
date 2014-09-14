@@ -1,0 +1,14 @@
+*** Assignment 2: Raytracer README ***
+By: Alan Yao & Rohan Chitnis
+Platform: Compiled&tested on Ubuntu 12.04 precise. Requires C++11 (compiles with -std=c++0x) and OpenMP.
+Source can be found in src/. Test inputs are in obj/ and tests/. Some output images are in submit_images/. The rest are available online.
+Compile in the src/ directory with make.
+Run with ./as2 [inputfilename].[obj/test] [-checker] [-env env/]
+
+Parser handles .test files as specified in Prof. Ramamoorthi's spec from Fa12.
+Parser handles .obj files, with no support for materials.
+Refraction is implemented in the .test input files: ni [value] specifies an index of value for the material.
+Accel structures, antialiasing, depth of field, obj file parsing options, soft shadowing, and texturing controls are in a compiler-directives file found in /src/core/Directives.h
+[-checker] adds a textured floor. Options in Directives.h.
+[-env env/] loads the environment map found in directory env/. It requires files front, back, top, left, right, bot in png format.
+

@@ -1,0 +1,29 @@
+*** Assignment 3: Bezier Patches README ***
+By: Alan Yao & Rohan Chitnis
+Submission: Code&Readme by Alan Yao (cs184-bx). Readme by Rohan Chitnis (cs184-ar).
+Platform: Compiled&tested on Ubuntu 12.04 precise. Requires C++11 (compiles with -std=c++0x) and freeGlut and SOIL for screenshot functionality.
+Compile with make.
+Run with ./as3 [input file name] [subdivision stepsize] [flags or additional files]
+
+Supported files:
+Any number of .bez and .obj files are supported. An input filename and subdivision stepsize must be provided (even if loading only an obj file).
+
+Flags:
+[-a] Use adaptive tesselation. Triangle-based.
+[-b] Use adaptive bezier subdivision. 
+
+In-program commands:
+[SHIFT] + [Arrow key] shifts the current object in given direction.
+[Arrow key] rotates object.
+[+/-] Zoom in/out.
+[w] Enable wireframe mode
+[s] Enable/disable smooth shading.
+[h] Enable hidden wire mode.
+[c] Display gaussian curvature of bezier patch
+[TAB] Cycle current object
+[p] Screenshot current scene
+
+An additional python utility is included, and can be found at obj/obj2bez.py. Usage:
+$ python obj2bez.py [objfile.obj]
+Outputs objfile.bez in the same directory. Recommended command to load generated bezfiles is:
+$ ./as3 [bezfile] 1 -b
