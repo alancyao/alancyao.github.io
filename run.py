@@ -1,3 +1,3 @@
 #!/usr/bin/env python
-from flask_website import app
+from app import app
 app.run(debug=True)
