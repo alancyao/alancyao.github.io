@@ -145,6 +145,14 @@ linebreak, Inset > Formatting > Justified line break
 \end_inset
 
 alanyao@berkeley.edu
+\begin_inset Newline newline
+\end_inset
+
+github: alancyao
+\begin_inset Newline newline
+\end_inset
+
+alanyaois.moe
 \end_layout
 
 \end_inset
@@ -530,9 +538,10 @@ Face/Image morphing
 
 
 \series bold
-Light Field
+Automatic Image Stitching - 
 \series default
- - Dynamic refocusing and apeture adjustment on images
+detect correspondences between images and create a projective transform
+ for image stitching, insertion, and rectification
 \end_layout
 
 \begin_layout Labeling
