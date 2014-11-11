@@ -273,6 +273,10 @@ Electrical Engineering and Computer Science.
 \begin_inset Newline newline
 \end_inset
 
+Intended Graduation: Spring 2016
+\begin_inset Newline newline
+\end_inset
+
 
 \series default
 \shape default
@@ -299,14 +303,9 @@ CS
 \begin_inset space ~
 \end_inset
 
-Classes C
+Classes 
 \shape default
-S61A (Intro), CS61B (Data Structures), CS61C (Computer Architecture), CS70
- (Discrete Math & Probability)
-\begin_inset Newline newline
-\end_inset
-
-CS170 (Algorithms), CS184 (Graphics), CS161 (Security), CS188 (AI), CS194
+CS170 (Algorithms), CS184 (Graphics), CS161 (Security), CS188 (AI), CS194-26
  (Computational Photography), CS162 (OS)
 \end_layout
 
@@ -316,8 +315,7 @@ CS170 (Algorithms), CS184 (Graphics), CS161 (Security), CS188 (AI), CS194
 \shape smallcaps
 Other 
 \shape default
-EE20 (Signals & Systems), EE40 (Circuits), Math 113 (Abstract Algebra),
- EE126 (Probability and Random Processes)
+Math 113 (Abstract Algebra), EE126 (Probability and Random Processes)
 \emph on
 
 \begin_inset VSpace -4pt
@@ -366,7 +364,13 @@ height "1pt"
 Software development intern.
  
 \noun default
-Full stack development, wrote Solr search backend.
+Full stack development in PHP.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Wrote Solr search backend indexing 30m+ documents of varying categories,
+ and wrote algorithms for relevancy sorting, autocompletion, and fuzzy matching.
 \noun on
 
 \begin_inset Newline newline
@@ -387,7 +391,7 @@ GSI
 \emph default
 \noun default
  for CS61BL.
- Taught lab and wrote autograders.
+ Lectured, taught lab and wrote all autograders.
 \begin_inset Newline newline
 \end_inset
 
@@ -487,24 +491,48 @@ School
 
 Related
 \shape default
- Pacman AI - Uses game-tree search to play network against other AI or players.
+ 
+\series bold
+Raytracer
+\series default
+ - Distributed raytracing on obj file inputs, with acceleration data structures
+ for image rendering.
 \begin_inset Newline newline
 \end_inset
 
-Hadoop Mapreduce on EC2 - Computing word co-occurence on USENET data
+
+\series bold
+Inverse Kinematics Solver
+\series default
+ - Uses the inverse jacobian method to smoothly animate predefined movement
+ paths.
 \begin_inset Newline newline
 \end_inset
 
-Processor Design - Designed a working, basic MIPS processor in Logisim.
+
+\series bold
+Gradient Domain Blending
+\series default
+ - Finds the least squares solution to the Poisson equations for smooth
+ image blending.
 \begin_inset Newline newline
 \end_inset
 
-Raytracer - Distributed raytracing on obj file inputs.
+
+\series bold
+Face/Image morphing
+\series default
+ - Warps images from one to another on predefined and automatically detected
+ meshes.
+ Computes intermediate faces, image mosiacs, and various other applications.
 \begin_inset Newline newline
 \end_inset
 
-Inverse Kinematics Solver - Uses the inverse jacobian method to generate
- movement.
+
+\series bold
+Light Field
+\series default
+ - Dynamic refocusing and apeture adjustment on images
 \end_layout
 
 \begin_layout Labeling
@@ -513,15 +541,11 @@ Inverse Kinematics Solver - Uses the inverse jacobian method to generate
 \shape smallcaps
 Personal 
 \shape default
-Various auto-grading Python and Bash scripts.
+HKN website - Front end and back end development in Rails.
 \begin_inset Newline newline
 \end_inset
 
-HKN website - Front end and back end development and refactor.
-\begin_inset Newline newline
-\end_inset
-
-HKN servers - Sysadmin work.
+HKN servers - Sysadmin work on Apache webserver and LDAP.
 \end_layout
 
 \begin_layout Labeling
@@ -575,7 +599,7 @@ Languages:
 \noun default
  
 \series default
-Python, Ruby/Rails, PHP, Bash, Java, C#, C++, C, MATLAB, MIPS
+Python, Ruby/Rails, PHP, Bash, Java, C++, C, MATLAB
 \end_layout
 
 \begin_layout Labeling
@@ -645,7 +669,7 @@ height "1pt"
 
 \series bold
 \noun on
-2013-2014
+2013-Present
 \series default
  
 \series bold
@@ -676,7 +700,7 @@ President and Competitive Coordinator
 \noun on
 Crossroads Christian Fellowship
 \noun default
-, Council Member
+, Council
 \end_layout
 
 \end_body
