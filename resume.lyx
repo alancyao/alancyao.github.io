@@ -1,12 +1,11 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass article
 \begin_preamble
 \usepackage{lastpage}
 \usepackage{amsmath}
-\usepackage{amssymb}
 \newcommand{\ø}{\raisebox{.3ex}{\tiny$\; \bullet \;$}}
 \renewcommand{\arraystretch}{1.25}
 %\usepackage{fancyhdr}
@@ -25,13 +24,13 @@
 \font_roman palatino
 \font_sans cmss
 \font_typewriter cmtt
+\font_math auto
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -42,15 +41,24 @@
 \use_hyperref false
 \papersize a4paper
 \use_geometry true
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -99,7 +107,7 @@ Make sure to read all the Notes if you are lost regarding the structure
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="1" columns="4">
-<features tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="6cm">
 <column alignment="center" valignment="top" width="2cm">
 <column alignment="right" valignment="top" width="3cm">
@@ -214,7 +222,7 @@ Berkeley, CA 94704
 \end_inset
 
 
-\begin_inset VSpace 15pt
+\begin_inset VSpace 5pt
 \end_inset
 
 
@@ -277,7 +285,7 @@ insert > formatting > ragged line break
 \end_inset
 
 Electrical Engineering and Computer Science.
- GPA 3.89
+ GPA 3.88
 \begin_inset Newline newline
 \end_inset
 
@@ -314,7 +322,8 @@ CS
 Classes 
 \shape default
 CS170 (Algorithms), CS184 (Graphics), CS161 (Security), CS188 (AI), CS194-26
- (Computational Photography), CS162 (OS)
+ (Computational Photography), CS162 (OS), CS189 (Machine Learning), CS274
+ (Computational Geometry), CS280 (Computer Vision)
 \end_layout
 
 \begin_layout Labeling
@@ -398,8 +407,9 @@ Crunchyroll
 GSI
 \emph default
 \noun default
- for CS61BL.
- Lectured, taught lab and wrote all autograders.
+ for CS61B/CS61BL.
+ Lectured, taught lab and discussion, wrote student projects and autograding
+ framework.
 \begin_inset Newline newline
 \end_inset
 
@@ -410,11 +420,11 @@ UC Berkeley
 
 \begin_layout Labeling
 \labelwidthstring 0000.0000.000
-2014 
+2013-2014 
 \noun on
 Reader
 \noun default
- for CS170 (algorithms).
+ for CS170 (algorithms) and CS61B (data structures).
  Graded homeworks and provided feedback.
 \begin_inset Newline newline
 \end_inset
@@ -422,35 +432,7 @@ Reader
 
 \emph on
 UC Berkeley
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 0000.0000.000
-\noindent
-
-\noun on
-2013
-\series bold
- 
-\series default
-\noun default
-Reader
-\noun on
- 
-\noun default
-for CS61B (data structures)
-\series bold
-.
-
-\series default
- Graded and debugged student projects.
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-UC Berkeley
-\begin_inset VSpace -4pt
+\begin_inset VSpace -8pt
 \end_inset
 
 
