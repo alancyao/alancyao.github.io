@@ -148,19 +148,11 @@ linebreak, Inset > Formatting > Justified line break
 \begin_inset Newline linebreak
 \end_inset
 
-(503) 707-4453
-\begin_inset Newline linebreak
-\end_inset
-
 alanyao@berkeley.edu
 \begin_inset Newline newline
 \end_inset
 
-github: alancyao
-\begin_inset Newline newline
-\end_inset
 
-alanyaois.moe
 \end_layout
 
 \end_inset
@@ -203,15 +195,12 @@ alanyaois.moe
 
 
 \series default
-2601 Channing Way
+\shape default
+github: alancyao
 \begin_inset Newline newline
 \end_inset
 
-Apt 306
-\begin_inset Newline newline
-\end_inset
-
-Berkeley, CA 94704
+website: alanyaois.moe
 \end_layout
 
 \end_inset
@@ -222,7 +211,7 @@ Berkeley, CA 94704
 \end_inset
 
 
-\begin_inset VSpace 5pt
+\begin_inset VSpace -16pt
 \end_inset
 
 
@@ -425,7 +414,7 @@ UC Berkeley
 Reader
 \noun default
  for CS170 (algorithms) and CS61B (data structures).
- Graded homeworks and provided feedback.
+ Graded homeworks, projects; provided feedback.
 \begin_inset Newline newline
 \end_inset
 
@@ -464,24 +453,15 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace -12pt
+\begin_inset VSpace -4pt
 \end_inset
 
 
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 0000.0000.0000.0000.00
+\begin_layout Standard
 \noindent
 
-\shape smallcaps
-School
-\begin_inset space ~
-\end_inset
-
-Related
-\shape default
- 
 \series bold
 Raytracer
 \series default
@@ -492,7 +472,7 @@ Raytracer
 
 
 \series bold
-Inverse Kinematics Solver
+Inverse Kinematics
 \series default
  - Uses the inverse jacobian method to smoothly animate predefined movement
  paths.
@@ -503,8 +483,7 @@ Inverse Kinematics Solver
 \series bold
 Gradient Domain Blending
 \series default
- - Finds the least squares solution to the Poisson equations for smooth
- image blending.
+ - Least squares solution to the Poisson equations for smooth image blending.
 \begin_inset Newline newline
 \end_inset
 
@@ -522,27 +501,48 @@ Face/Image morphing
 \series bold
 Automatic Image Stitching - 
 \series default
-detect correspondences between images and create a projective transform
- for image stitching, insertion, and rectification
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 0000.0000.0000.0000.00
-
-\shape smallcaps
-Personal 
-\shape default
-HKN website - Front end and back end development in Rails.
+Detect correspondences between images and create a projective transform
+ for image stitching, insertion, and rectification.
 \begin_inset Newline newline
 \end_inset
 
-HKN servers - Sysadmin work on Apache webserver and LDAP.
+
+\series bold
+Neural Network - 
+\series default
+Uses a 3 layer NN trained on the GPU with batch gradient descent for MNIST
+ digit classification, with 1.5% classification error.
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 0000.0000.0000.0000.00
-\noindent
-\begin_inset VSpace -4pt
+\begin_layout Standard
+
+\series bold
+\shape smallcaps
+D
+\shape default
+ynamic Viewing
+\series default
+ 
+\series bold
+- 
+\series default
+Uses multi-scale template matching based on the user's face location to
+ adjust the viewing angle, direction, and camera location in a minecraft
+ game.
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+HKN compserv
+\series default
+ - Front/back end development in Rails; sysadmin work on Apache webserver
+ and LDAP.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset VSpace -8pt
 \end_inset
 
 
@@ -590,7 +590,7 @@ Languages:
 \noun default
  
 \series default
-Python, Ruby/Rails, PHP, Bash, Java, C++, C, MATLAB
+Python, MATLAB, C++, Java, C, Ruby/Rails, PHP, Bash
 \end_layout
 
 \begin_layout Labeling
