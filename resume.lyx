@@ -274,7 +274,7 @@ insert > formatting > ragged line break
 \end_inset
 
 Electrical Engineering and Computer Science.
- GPA 3.88
+ GPA 3.9
 \begin_inset Newline newline
 \end_inset
 
@@ -365,6 +365,36 @@ height "1pt"
 
 \begin_layout Labeling
 \labelwidthstring 0000.0000.000
+2015 
+\noun on
+SWE Intern 
+\noun default
+using OpenGL ES, GLSL, and C++ on next generation map rendering for Maps
+ & Earth products across mobile, desktop, wearable, and automobile displays.
+\begin_inset Newline newline
+\end_inset
+
+Achieved and validated performance gains of up to 63% less data sent to
+ GPUs and tripled the frame rate in dense scenes.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph default
+Implemented new groundbreaking features and addressed launch-blocking bugs
+ for next-gen Maps API launch.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+Google
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 0000.0000.000
 2014 
 \noun on
 Software development intern.
@@ -390,13 +420,13 @@ Crunchyroll
 
 \begin_layout Labeling
 \labelwidthstring 0000.0000.000
-2014 
+2014-2015 
 \emph on
 \noun on
 GSI
 \emph default
 \noun default
- for CS61B/CS61BL.
+ for CS61B, CS61BL, CS170.
  Lectured, taught lab and discussion, wrote student projects and autograding
  framework.
 \begin_inset Newline newline
@@ -660,11 +690,7 @@ height "1pt"
 
 \series bold
 \noun on
-2013-Present
-\series default
- 
-\series bold
-Eta Kappa Nu
+2013-2015 Eta Kappa Nu
 \series default
 \noun default
 , 
@@ -691,7 +717,7 @@ President and Competitive Coordinator
 \noun on
 Crossroads Christian Fellowship
 \noun default
-, Council
+, Core Leadership
 \end_layout
 
 \end_body
