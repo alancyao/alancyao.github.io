@@ -1,0 +1,46 @@
+---
+layout: page
+title: CS184 | Raytracer
+---
+<html>
+	<head>
+		<title>CS184 Page : Assignment 2</title>
+	</head>
+	<body>
+  <h1> Assignment 2 : Raytracer </h1>
+  <h3> Alan Yao and Rohan Chitnis </h3>
+  <p> 
+  <a href="README">README</a><br>
+  <h4> Basic requirements </h4>
+  Test files were found online, from previous years. All images were written to png and rendered in under a minute, most in a few seconds or so.<br>
+  <img src="results/basic/dice.png"><br>
+  Triangles and spheres with ambient/emissive light.<br>
+  <img src="results/basic/emission.png"><br>
+  Transforms applied can create arbitrary ellipsoids.<br>
+  <img src="results/basic/specular.png"><br>
+  Specular-only render of the same scene.<br>
+  <img src="results/basic/all.png"><br>
+  Shows the full spectrum of requirements. Shadows, reflections, transformations, point and directional lights, transformations, arbitrary polygons, and shading are all used.<br>
+  <img src="results/basic/dragon.png"><br>
+  A cool dragon with many polygons.<br>
+  <h4> Extra credit features </h4>
+  We implemented many of the optional features as shown below. The dragon above required an AABB Tree to render quickly (~5s). All of the following images were rendered in under a minute unless otherwise specified. <br>
+  Features: Acceleration structure, transparency with refraction, anti-aliasing, depth of field, phong interpolation, environment mapping, area lights/soft shadows, texture mapping.<br>
+  <img src="results/no_aa.png"> vs <img src="results/with_aa.png"><br>
+  Antialiasing done with supersampling. Above images compares a standard checkerboard with and without antialiasing. Checkerboard is generated with a 2D texture function. Notice the artifacts without antialiasing. Rendered at 16rpp (rays per pixel).<br>
+  <img src="results/soft_shadowing.png"><br>
+  Softshadowing by jittering shadowing rays to different locations on an area light. Low quality soft shadows, but could be improved with more rays. Rendered at 25rpp.<br>
+  <img src="results/reflection_map_dragon.png"><br>
+  The dragon returns, this time to an environment/reflection map. We used a reflection map cube, as suggested in the textbook, for simplicity and since images are hard to generate for spherical maps. <br>
+  <img src="results/no_dof.png"> vs <img src="results/with_dof.png"><br>
+  Two sphere picture. Depth of field implemented by jittering ray start positions to the focal plane. Rendered at 50rpp. <br>
+  <img src="results/phong_shading_off.png"> vs <img src="results/animated_teapot.gif"><br>
+  Ability to parse .obj files implemented. The teapot has vertex normals specified. The left picture demonstrates no phong interpolation, and the right picture has phong interpolation. Rendered at 16rpp. The teapot travels the world. <br>
+  <img src="results/dof_refraction_spheres.png"><br>
+  Implemented refraction using Snell's law and Schlick's approximation. Here is an example of two spheres with refraction on the environment map. Rendered at 160rpp (two minutes). <br>
+  <img src="results/android.png"><br>
+  An android stands on a tiled floor. <br>
+  </p>
+  <a href="../index.html">Back</a>
+  </body>
+</html>
