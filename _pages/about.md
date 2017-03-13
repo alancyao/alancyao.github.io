@@ -51,7 +51,7 @@ I'm currently a Software Engineer at Airbnb.
 
 Before that, I worked at Google and Crunchyroll a summer each, as a Software Engineer Intern.
 
-Ever since sophomore year of university, I've been on the teaching staff of either CS61B (Data Structures) or CS170 (Algorithms) at Berkeley; first as a reader, then as a TA, then finally as the instructor of CS61BL over the summer of 2016. Throuughout university, my main interests have been vision, graphics, and geometry (partly due to course availability). I also enjoy work in ML and systems, though my exposure there is lower.
+Ever since sophomore year of university, I've been on the teaching staff of either CS61B (Data Structures) or CS170 (Algorithms) at Berkeley; first as a reader, then as a TA, then finally as the instructor of CS61BL over the summer of 2016. Throughout university, my main interests have been vision, graphics, and geometry (partly due to course availability). I also enjoy work in ML and systems, though my exposure there is lower.
 
 My favorite class at Berkeley is [CS274](https://people.eecs.berkeley.edu/~jrs/274/), Computational Geometry, with Jonathan Shewchuk.
 
